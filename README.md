@@ -380,7 +380,7 @@ Browser JavaScript would be pretty boring if all you could do was manipulate the
 
 Originally, this was accomplished with a contraption called `XMLHttpRequest` and the API for it was less than stellar. Modern browsers offer a much better alternative using the globally available `fetch` function. As a bonus, `fetch` uses Promises to give back its results, allowing us to write much nicer code.
 
-The process of fetching external information and updating the page as a result is often called AJAX, which stands for "Asynchronous JavaScript And XML". After four weeks of bootcamping, we now understand what asynchronous means. We also know what JavaScript means. We haven't really looked at XML. It turns out to be quite a heavy data format, both in terms of its size and its parsing. Many new APIs prefer to use the JSON format instead. Since JSON is native to JavaScript, this is great for us!
+The process of fetching external information and updating the page as a result is often called AJAX, which stands for "Asynchronous JavaScript And XML". We haven't really looked at XML. It turns out to be quite a heavy data format, both in terms of its size and its parsing. Many new APIs prefer to use the JSON format instead. Since JSON is native to JavaScript, this is great for us!
 
 Let's look at how we can use `fetch`, at first only to make an HTTP request, and then eventually to build something with it. Let's start by changing the code of `app.js` to the following:
 
